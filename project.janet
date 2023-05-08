@@ -1,6 +1,6 @@
 (declare-project
   :name "space-traders-client"
-  :description ```client for https://spacetraders.io/```
+  :description ```client for spacetraders.io```
   :version "0.0.0"
   :dependencies ["https://github.com/joy-framework/http"])
 

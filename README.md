@@ -1,3 +1,3 @@
 # space-traders-client
 
-Add project description here.
+client for https://spacetraders.io written in janet
