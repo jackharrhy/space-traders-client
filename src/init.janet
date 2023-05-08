@@ -1,8 +1,8 @@
-(defn hello
-  `Evaluates to "Hello!"`
-  []
-  "Hello!")
+(use ./env)
+(setenv)
+(use ./api)
 
 (defn main
   [& args]
-  (print (hello)))
+  (var agent (my-agent))
+  (print (agent :account_id)))
